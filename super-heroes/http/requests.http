@@ -1,0 +1,13 @@
+###
+
+# curl --location 'https://cat-fact.herokuapp.com/facts/'
+GET https://cat-fact.herokuapp.com/facts/
+
+###
+
+# curl http://localhost:8080/api/villains
+GET http://localhost:8080/api/villains
+
+###
+
+

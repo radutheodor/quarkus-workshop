@@ -1,0 +1,36 @@
+GET http://localhost:8080/api/villains
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-17T163602.200.txt
+
+###
+
+GET https://cat-fact.herokuapp.com/facts/
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-17T152307.200.json
+
+###
+
+GET https://alexwohlbruck.github.io/cat-facts/
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-01-17T152126.200.html
+
+###
+
+GET https://alexwohlbruck.github.io/cat-facts/
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-01-17T152034.200.html
+
+###
+
