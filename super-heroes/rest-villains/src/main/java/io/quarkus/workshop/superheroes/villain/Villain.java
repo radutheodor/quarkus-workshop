@@ -13,6 +13,8 @@ import java.util.Random;
 @Entity
 public class Villain extends PanacheEntity {
 
+    private static final Random RANDOM = new Random();
+
     @NotNull
     @Size(min = 3, max = 50)
     public String name;
@@ -30,8 +32,7 @@ public class Villain extends PanacheEntity {
 
     public static Villain findRandom() {
         long countVillains = count();
-        Random random = new Random();
-        int randomVillain = random.nextInt((int) countVillains);
+        int randomVillain = RANDOM.nextInt((int) countVillains);
         return findAll().page(randomVillain, 1).firstResult();
     }
 
